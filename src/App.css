@@ -20,10 +20,25 @@ body {
 }
 
 .TitleSection input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid violet;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button {
   width: 200px;
   height: 40px;
   border-radius: 10px;
   border: 1px solid violet;
   font-size: 18px;
   padding-left: 10px;
+  color: white;
+  background-color: purple;
+}
+
+.TitleSection button:hover {
+  cursor: pointer;
 }
