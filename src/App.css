@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.TitleSection {
+  background-color: rgb(61, 4, 75);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.TitleSection input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid violet;
+  font-size: 18px;
+  padding-left: 10px;
+}
